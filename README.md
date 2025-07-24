@@ -2,6 +2,19 @@
 
 This is a monorepo chat application built with Next.js, TypeScript, and Socket.io. It uses Turborepo for managing multiple apps and packages.
 
+
+
+## Tech Stack
+
+- **Next.js** – React framework for server-side rendering and static site generation
+- **React** – UI library
+- **TypeScript** – Type-safe JavaScript
+- **Socket.io** – Real-time communication
+- **Redis** – In-memory data store for caching and pub/sub
+- **Turborepo** – Monorepo build system
+- **ESLint** – Linting and code quality
+- **Custom UI Library** – Shared React components (`packages/ui`)
+
 ## Project Structure
 
 - `apps/web` – Main Next.js chat frontend
